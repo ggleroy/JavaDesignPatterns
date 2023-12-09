@@ -3,7 +3,8 @@ public class MyClass {
     String name;
     private MyClass(){
     }
-    public static MyClass getInstance(){
+    public static synchronized MyClass getInstance(){
+        //adding synchronized to make singleton thread safe.
         if(uniqueInstance == null) {
             uniqueInstance = new MyClass();
         }
