@@ -1,4 +1,4 @@
-package adapter;
+package adapter1;
 
 public class WebAdapter implements WebRequester{
     private WebService service;

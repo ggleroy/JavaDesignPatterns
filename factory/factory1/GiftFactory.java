@@ -1,4 +1,4 @@
-package factory;
+package factory1;
 
 public class GiftFactory {
     public Gift createGift(String giftType) {

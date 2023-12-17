@@ -1,4 +1,4 @@
-package factory;
+package factory1;
 
 public class BookGift extends Gift {
     // You can add more specific fields and methods related to a BookGift here

@@ -1,4 +1,4 @@
-package factory;
+package factory1;
 
 public abstract class Gift {
     private boolean isSeparated = false;
